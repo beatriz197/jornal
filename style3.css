@@ -1,0 +1,26 @@
+/*formulario*/
+form {
+    display: grid;
+    gap: 1rem;
+}
+label {
+    font-weight: bold;
+}
+input, textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+button {
+    background: #323136;
+    color: #fff;
+    border: nome;
+    padding: 0.7rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+button:hover {
+    background: #000000;
+}

@@ -1,0 +1,38 @@
+H2{
+    FONT-FAMILY: ARIAL, SANS-SERIF;
+    MARGIN-BOTTOM: 1REM;
+}
+body{
+    background-color: #9b0a0a;
+    FONT-FAMILY: ARIAL, SANS-SERIF;
+}
+.card{
+    background: #9b0a0a;
+    border-radius: 4px;
+    padding: 1rem;
+    width: 100%;
+    box-shadow: 0 4px 8px rgb(0, 0, 0);
+    transition: transform 0,3s ease, box shadow 0.3 ease;
+}
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgb(0, 0, 0);
+}
+/*projetos*/
+.cards {
+    display: flex;
+    gap: 1rem;
+}
+.card{
+    background: #ffffff;
+    border-radius: 4px;
+    padding: 6rem;
+    width: 30%;
+    box-shadow: 0 4px 8px rgb(49, 48, 48);
+    transition: transform 0,3s ease, box-shadow 0.3 ease;
+}
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgb(0, 0, 0);
+
+} 

@@ -1,0 +1,24 @@
+SECTION{
+    PADDING: 2REM;
+    MARGIN: 1REM;
+    BACKGROUND: #ffF;
+    BORDER-RADIUS: 8PX;
+    BOX-SHADOW: 0 4PX 8PX rgb(0, 0, 0);
+}
+.container{
+    MAX-WIDTH: 700PX;
+    MARGIN: 0 AUTO;
+}
+H2{
+    MARGIN-BOTTOM: 1REM;
+}
+BODY{
+    FONT-FAMILY: ARIAL, SANS-SERIF;
+    LINE-HEIGHT: 1.6;
+    BACKGROUND: #8f1a1a;
+}
+.sobre-mim{
+    DISPLAY: FLEX;
+    ALIGN-ITEMS: CENTER;
+    GAP: 1REM;
+}
